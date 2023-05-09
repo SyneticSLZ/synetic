@@ -1,0 +1,99 @@
+#syneverse{
+    padding:3em;
+    width:100%;
+    height:120vh;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image:url("https://images.unsplash.com/photo-1553675559-5046b59a5ca5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8ZnV0dXJpc3RpYyUyMGNpdHl8ZW58MHx8MHx8&auto=format&fit=crop&q=60");
+  text-align:center;
+    color:var(--clr-light);
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+  }
+  
+  #syneverse::before{
+    position: absolute;
+    content: "";
+    background: radial-gradient(ellipse at center, rgba(147, 130, 95, 0.38) 0%, rgb(0, 0, 0) 100%);
+    width: 65%;
+    height: 35%;
+    bottom: 300px;
+  }
+  
+  .syneverse-heading{
+    text-align: center;
+      font-family:var(--ff-secondary);
+    font-weight: lighter;
+      width: 600px;
+      top: 55%;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    z-index: 2;
+  }
+  
+  .syneverse-heading span{
+    color: var(--clr-accent_second);
+    display: block;
+    font-size: 3rem;
+  }
+  
+   .syneverse-heading p{
+    color:white;
+    font-weight:var(--fw-reg);
+    font-family: var(--ff-secondary);
+    padding:0;
+    margin-top:-1em;
+    margin-bottom: 2em;
+    width:400px;
+    font-size: 1rem;
+    z-index: 2;
+  }
+  
+  
+  .syneverse-heading h1{
+      font-family:var(--ff-primary);
+      font-size:2rem;
+    margin-bottom: 1em;
+      letter-spacing: 2px;
+      color:#ffffff;
+      
+  }
+  
+  .syneverse-btn{
+      display: flex;
+      justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    background-color:var(--clr-accent_second);
+    border: 1px solid white;
+    border-radius: 5px;
+      color:#ffffff;
+    text-decoration: none;
+    padding: 1em 3em;
+    z-index: 10;
+  }
+  
+  .syneverse-btn:hover{
+      background-color: var(--clr-accent);
+      transition: all ease 0.5s;
+      color:white;
+      border: 2px solid hsl(43, 100%, 54%);
+    }
+  
+    @media (min-width:800px){
+      #syneverse{
+      display: flex;
+        justify-content: center;
+      align-items: center;
+      background-image:url("https://images.unsplash.com/photo-1553675559-5046b59a5ca5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8ZnV0dXJpc3RpYyUyMGNpdHl8ZW58MHx8MHx8&auto=format&fit=crop&q=60");
+    
+      }
+    }

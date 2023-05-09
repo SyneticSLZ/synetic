@@ -1,0 +1,113 @@
+.NFTgame-heading h2{
+  padding-top: 6rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-family:var(--ff-secondary);
+    font-size: 4rem;
+    letter-spacing: 0.5rem;
+    color:#ffffff;
+    font-weight:300;
+  }
+  
+  .NFTgame-heading span{
+    color: var(--clr-accent);
+  }
+  
+  .NFTgame-heading .details{
+    
+    color:var(--clr-light);
+    font-weight:var(--fw-bold);
+    padding:0;
+    margin:0;
+    margin-bottom: 2rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  padding-inline: 2rem;
+  }
+  
+  .NFTgame-heading .details_secondary{
+    font-size:2rem;
+    color: var(--clr-accent);
+  }
+  
+  .NFTgame-heading h1{
+      font-family:var(--ff-primary);
+      font-size:1.5rem;
+  
+    margin-bottom: 1.5em;
+      letter-spacing: 2px;
+      color:var(--clr-dark);
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: white;
+  }
+  
+  .NFTgame-btn{
+  
+  width: 250px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 1em;
+  background: radial-gradient(circle, rgba(233,0,179,1) 0%, rgba(0,153,202,1) 100%);
+      border-radius: 5px;
+        color:#ffffff;
+      text-decoration: none;
+      padding: 1em 2em;
+  margin: 2rem;
+  }
+  
+  .NFTgame-btn_section{
+    display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .details{
+    font-weight: 300;
+    font-family: var(--ff-secondary);
+    font-size: 1rem;
+  }
+  
+  .NFTgame-btn:hover{
+      background: rgb(0,153,202);
+  background: radial-gradient(circle, rgba(0,153,202,1) 0%, rgba(233,0,179,1) 100%);
+      transition: all ease 0.5s;
+      color:white;
+      border: 2px solid white;
+      font-weight: var(--fw-bold);
+      font-family: var(--ff-primary);
+      margin-bottom: 1rem;
+    }
+  
+    @media (min-width:800px){
+      .NFTgame-heading .details{
+        color:var(--clr-light);
+        font-size: 1rem;
+        padding:0;
+        margin:1rem;
+  
+      }
+
+      .NFTgame-heading .details_secondary{
+        font-size:3rem;
+        color: var(--clr-accent);
+        padding: 1rem;
+      }
+      
+      .NFTgame-heading h2{
+      font-size: 3rem;
+      margin-bottom: -0.5em;
+      }
+      
+      .NFTgame-heading h1{
+        font-family:var(--ff-primary);
+        font-size:5rem;
+        margin-bottom: 1.5em;
+      }
+    }
