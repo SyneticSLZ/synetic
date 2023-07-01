@@ -11,14 +11,15 @@ const DotRing = () => {
   return (
     <>
             {/* 2. */}
-      <div
-        style={{ left: `${x}px`, top: `${y}px` }}
-        className={"ring " + cursorType}
-      ></div>
-      <div
+      <div style={{ left: `${x}px`, top: `${y}px` }} className={" ring " + cursorType }></div>
+        {/* <div
+        className={"dot " + cursorType}
+        style={{ left: `${x}px`, top: `${y}px` }}>
+      </div> */}
+      { <div
         className={"dot " + cursorType}
         style={{ left: `${x}px`, top: `${y}px` }}
-      ></div>
+      ></div> }
     </>
   );
 };

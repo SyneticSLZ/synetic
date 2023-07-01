@@ -15,6 +15,7 @@ export default function ImageSlider(){
 <div className="image-slider">
     <div className="marquee_image">
   <div className="marquee_image-content">
+
   <img src= { NFTimage } alt="new-synetic_souls nft"></img>
   <img src= { NFTimage } alt="new-synetic_souls nft"></img>
   <img src= { NFTimage } alt="new-synetic_souls nft"></img>
@@ -33,6 +34,10 @@ export default function ImageSlider(){
   <img src= { NFTimage } alt="new-synetic_souls nft"></img>
   <img src= { NFTimage } alt="new-synetic_souls nft"></img>
   <img src= { NFTimage } alt="new-synetic_souls nft"></img>
+  <img src= { NFTimage } alt="new-synetic_souls nft"></img>
+  <img src= { NFTimage } alt="new-synetic_souls nft"></img>
+  <img src= { NFTimage } alt="new-synetic_souls nft"></img>
+  
   </div>
 </div>
 </div>

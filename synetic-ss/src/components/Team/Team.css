@@ -6,9 +6,9 @@
     flex-direction:column;
     align-items: center;
     justify-content: center;
-    padding: 3em;
-    /* background-color: var(--clr-dark); */
-    margin-top: 8rem;
+    /* padding: 3em; */ 
+    /* background-color: var(--clr-dark);
+    margin-top: 0rem;
     /* margin-bottom: 8rem; */
 }
 
@@ -25,7 +25,7 @@
   display: flex;
   flex-direction: column;
   max-width: 800px;
-  margin-top: 5rem;
+  margin-top: 2rem;
 }
 
 .text-body h2 {
@@ -64,7 +64,7 @@
   }
 
   .straplines{
-margin-bottom: 6rem;
+margin-bottom: 2rem;
   }
 
   .text-body h1{
@@ -82,11 +82,11 @@ margin-bottom: 6rem;
   padding: 1em;
   background-color: #0000004f;
   box-shadow: 5px 5px 15px 5px #787D72;
-  width:300px;
-  height: 400px;
+  width:400px;
+  height: 600px;
   margin: 4rem;
   border-radius: 10px;
-  overflow: hidden;
+  /* overflow: hidden; */
   transition: 0.4s ease-in-out;
     /* position: relative; */
   animation: wipe-enter 5s 1;
@@ -98,7 +98,7 @@ margin-bottom: 6rem;
   font-size: 2rem;
   font-weight: bolder;
 font-family: var(--ff-secondary);
-margin-top:1rem;
+/* margin-top:1rem; */
 padding:0;
 color: var(--clr-accent);
 text-shadow: 2px 2px 5px var(--clr-accent_second);
@@ -111,20 +111,36 @@ text-shadow: 2px 2px 5px var(--clr-accent_second);
   box-shadow: 2px 2px 12px var(--clr-accent_second);
 }
 
-.team__box-img{
-  padding: 15px;
-  margin-top: 40px;
-  width:100%;
-  height: 50%;
-  background-image: url("https://images.unsplash.com/photo-1507413245164-6160d8298b31?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=270&q=80");
+.team__box-img1 img{
+  display: flex;align-items: center;
+  justify-content: center;
+  /* width:60%;
+  height: 60%; */
+  padding :2rem;
+  /* border-radius: 50%; */
+  /* border: 2px red solid; */
+  /* background-image: url("./M.png");  */
 }
 
+
+.team__box-img2 img{
+  display: flex;align-items: center;
+  justify-content: center;
+  /* width:60%;
+  height: 60%; */
+  padding :2rem;
+  /* border-radius: 50%; */
+  /* border: 2px red solid; */
+  /* background-image: url("./M.png");  */
+}
 .team__text p{
 color:var(--clr-light);
 font-family: var(--ff-tertiary);
+margin-bottom:3rem;
 }
 
 .team-discord a i{
+  margin-top: 30px;
   font-size: 2rem;
   background: -webkit-linear-gradient(var(--clr-accent), var(--clr-accent_second));
   -webkit-background-clip: text;

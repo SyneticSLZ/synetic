@@ -28,7 +28,7 @@ export default function Footer(){
     <div className="reveal container"
     >
       <a href="/"> 
-        <h3 className="footer__logo" width='100px' height="100px">Sinister Souls</h3>
+        <h3 className="footer__logo" width='100px' height="100px">Synetic</h3>
         
     </a>
 
@@ -50,7 +50,7 @@ export default function Footer(){
         
       </div>
     
-      <div className="footer__links col1">
+      {/* <div className="footer__links col1">
         <a href="#about">About Us</a>
         <a href="#contact">Contact</a>
         <a href="/">Blog</a>
@@ -60,7 +60,7 @@ export default function Footer(){
         <a href="/">Careers</a>
         <a href="/">Support</a>
         <a href="/">Privacy Policy</a>
-      </div>
+      </div> */}
 
       {/* <div class="footer__cta">
         <a href="#" class="button">Request Invite</a>
@@ -70,12 +70,8 @@ export default function Footer(){
     </div>
    
     <div className="footer__copyright">
-        &copy; Sinister Souls. All Rights Reserved.
+        &copy; Synetic LTD. All Rights Reserved.
       </div>
-    <div className="attribution">
-      <a href="/">Coded by PinkPistachioButterfly</a>.
-      
-    </div>
   </footer>)
  
 }

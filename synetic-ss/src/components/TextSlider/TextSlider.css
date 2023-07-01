@@ -27,19 +27,19 @@ z-index:1;
 
 .marquee:before{
 left:0;
-background: linear-gradient(to right, rgba(1, 35, 61, 0.368) 0%, transparent 100%);
+/* background: linear-gradient(to right, rgba(1, 35, 61, 0.368) 0%, transparent 100%); */
 } 
 
 .marquee:after{
 right:0;
-background: linear-gradient(to left, rgba(1, 35, 61, 0.368) 0%, transparent 100%);    
+/* background: linear-gradient(to left, rgba(1, 35, 61, 0.368) 0%, transparent 100%);     */
 }
 
 .marquee-content{
     list-style: none;
     height:100%;
     display:flex;
-    animation: scrolling 5s linear infinite;
+    animation: scrolling 15s linear infinite;
     font-family: var(--ff-primary);
     color:white;
 }

@@ -20,11 +20,21 @@
 
   /* .footer-img{
   padding-bottom: 4rem; */
-  
+  .footer .container {
+    display: flex;
+    flex-direction: row;
+    grid-template-columns: repeat(3, 1fr), 2fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "logo links1  links2 cta" "social links1 links2 copyright";
+    gap: 1rem;
+    justify-items: start;
+    padding-inline: 1rem;
+  }
 
   @media (min-width: 64em) {
     .footer .container {
-      display: grid;
+      display: flex;
+      flex-direction: row;
       grid-template-columns: repeat(3, 1fr), 2fr;
       grid-template-rows: repeat(2, 1fr);
       grid-template-areas: "logo links1  links2 cta" "social links1 links2 copyright";

@@ -6,6 +6,7 @@ import About from "../components/About/About"
 import NFTgame from "../components/NFTgame/NFTgame";
 import Hero from "../components/Hero/Hero";
 import Roadmap from "../components/Roadmap/Roadmap";
+import UseCase from "../components/Roadmap/UseCase";
 import Contact from "../components/Contact/Contact";
 import Footer from "../components/Footer/Footer";
 import ImageSlider from "../components/ImageSlider/ImageSlider";
@@ -23,6 +24,9 @@ import { ThemeProvider } from 'styled-components';
 import { GlobalStyles } from '../global';
 import { theme } from '../theme';
 import { Parallax, ParallaxLayer } from 'react-spring';
+import Who from "../components/About/Who";
+import NStory from "../components/About/Who copy";
+
 
 export default function Aboutpage() {
   let Parallax;
@@ -55,7 +59,9 @@ function reveal(){
 window.addEventListener("scroll", reveal);
 
   return(
+    
     <ThemeProvider theme={ theme }>
+
      <>
       <GlobalStyles />
       <DotRing />
@@ -74,18 +80,21 @@ window.addEventListener("scroll", reveal);
             <Menu open={open} setOpen={setOpen} id={menuId} />
           {/* </FocusLock> */}
       </div>
-
       <Navbar />
-      {/* <Blank /> */}
+    <Hero />
+
+    {/* <NStory /> */}
+    <Who />
       <About />
-         <ImageSlider />
-         <ImageSlider2 />
-         <Oasis />
+      <TextSlider />
+         <NStory />
+         {/* <Oasis /> */}
          <Team />
-         <TextSlider />
+         {/* <ImageSlider />
+         <ImageSlider2 /> */}
          <NFTgame />
-         <Roadmap />
-         <Contact />
+         {/* <Roadmap /> */}
+         {/* <Contact /> */}
          <Footer /> 
          </>
     </ThemeProvider>

@@ -83,4 +83,5 @@ transparent 100%);
     width: 15rem;
     object-fit:cover;
     padding:1rem;
+    border-radius: 15%;
 }

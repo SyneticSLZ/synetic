@@ -19,16 +19,45 @@ const [open, setOpen] = useState(false);
             <div className="header-list">
             
             <div className="nav__list">
+      <ul>
+      <li className="nav__link">
+          <Scrolllink smooth={true} duration={3000}>
+            <Link to="/synetic-ss/home" className="link" To="/synetic-ss/home">Home</Link>
+          </Scrolllink>
+        </li>
+        <li className="nav__link">
+          <Scrolllink smooth={true} duration={3000}>
+            <Link to="/synetic-ss/about" className="link" To="/synetic-ss/about">About Us</Link>
+          </Scrolllink>
+        </li>
+        <li className="nav__link">
+          <Scrolllink smooth={true} duration={3000}>
+            <Link to="/synetic-ss/Partner" className="link" To="/synetic-ss/Partner">Partner With Us</Link>
+          </Scrolllink>
+        </li>
+        {/* <li className="nav__link">
+          <Scrolllink smooth={true} duration={3000}>
+            <Link to="/synetic-ss/stripe" className="linkbtn" To="/synetic-ss/stripe">Schedule a call</Link>
+          </Scrolllink>
+        </li> */}
+        
+      </ul></div>
+            {/* <div className="nav__list">
                <ul> <li className="nav__link">
-                   <Scrolllink  smooth={true} duration={3000}><Link to="/about" class="link">About</Link></Scrolllink></li>
+                   <Scrolllink  smooth={true} duration={3000}><Link to="/about" className="link">About</Link></Scrolllink></li>
                     <li className="nav__link">
-                        <Scrolllink  smooth={true} duration={3000} ><Link to="/contact" class="link">Contact</Link></Scrolllink></li>
+                        <Scrolllink  smooth={true} duration={3000} ><Link to="/contact" className="link">Contact</Link></Scrolllink></li>
                     <li className="nav__link">
-                        <Scrolllink smooth={true} duration={3000}><Link to="/home" class="link">Home</Link></Scrolllink></li>
+                        <Scrolllink smooth={true} duration={3000}><Link to="/home" className="link">Home</Link></Scrolllink></li>
                </ul>
-            </div>
+            </div> */}
+            {/* <div className="nav__list">
+               <Link to="/about" class="link">About</Link>
+               <Link to="/contact" class="link">Contact</Link>
+               <Link to="/home" class="link">Home</Link>
+            </div> */}
 
-            <div className="social-list">
+            {/* <div className="social-list">
                         <Scrolllink className="social-list__link" to="https://twitter.com/_sinister_souls">
                          <i className="fab fa-discord"></i>
                          </Scrolllink>
@@ -40,7 +69,7 @@ const [open, setOpen] = useState(false);
                          <Scrolllink className="social-list__link" to="https://twitter.com/_sinister_souls">
                          <i className="fab fa-twitter"></i>
                         </Scrolllink>
-        </div>
+        </div> */}
             </div>
         
 <div className="burger">

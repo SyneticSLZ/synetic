@@ -17,12 +17,17 @@ className="text-slider"
  >
     <div className="marquee">
   <ul className="marquee-content">
-   <li>SYNETIC   </li>
-   <li> <span>SINISTER</span>  SOULS</li>
-   <li>SYNETIC   </li>
-   <li> <span>SINISTER</span>  SOULS</li>
+   <li>SYNETIC </li>
+   <li>SYNETIC </li>
+   <li>SYNETIC </li>
+   <li>SYNETIC </li>
+   <li>SYNETIC </li>
+   <li>SYNETIC </li>
+   <li>SYNETIC </li>
+   <li>SYNETIC </li>
+
    
-   
+  
   
    
   </ul>

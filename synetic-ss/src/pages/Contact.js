@@ -5,8 +5,10 @@ import Team from "../components/Team/Team"
 import About from "../components/About/About"
 import NFTgame from "../components/NFTgame/NFTgame";
 import Hero from "../components/Hero/Hero";
-
+import H1 from "../components/Hero/H1";
+import UseCase from "../components/Roadmap/UseCase";
 import Roadmap from "../components/Roadmap/Roadmap";
+import Codeslider from "../components/ImageSlider/codepentester";
 import Contact from "../components/Contact/Contact";
 import Footer from "../components/Footer/Footer";
 import ImageSlider from "../components/ImageSlider/ImageSlider";
@@ -77,10 +79,8 @@ window.addEventListener("scroll", reveal);
       {/* </div> */}
 
       <Navbar />
-      
+        <H1 />
         <Contact />
-         <NFTgame />
-         <Roadmap />
          <Footer /> 
          </>
     // </ThemeProvider>

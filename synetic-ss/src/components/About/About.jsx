@@ -22,12 +22,11 @@ export default function About(){
    
 
     return(
-        <animated.div id="about-main" 
-        className="about"
-        >
-     
+        <animated.div id="about-main" className="about">
+        <div className="h1"><h1>"EMBRACE THE FUTURE"</h1></div> 
+         <div className="row23">
         <div className="about-image">
-        <h1>ABOUT</h1>
+        
         <img className="reveal"
         width="600" 
         height="400" 
@@ -37,12 +36,17 @@ export default function About(){
         <div className="about-text"
         >
             
-            <p className="highlight-text"> A new open world multi-planetary system created with endless possibilities for escape, on the blockchain. </p>
-            
+            <p className="highlight-text"> Bringing Customers and Brands to the future <br></br> In a new innovative Digital Realm to explore</p>
+            {/* A new open world multi-planetary system created with endless possibilities for escape, on the blockchain. */}
             <div className="about_body-text reveal">
-            <p>Live a second digital reality where nothing is off limits. </p>
+            {/* <p><b> */}
+{/* Step into the world of Synetic, where a global community of brands and small businesses unite on a single virtual platform.lose yourself in a fashion paradise where every trend comes to life. <br></br>Synetic is your passport to an escape from reality, where your desires become reality. </b></p> */}
+            <p><b >EXPLORE</b>    a whole new world, where anything is possible </p>
+            <p><b >JOIN </b>   a growing community of brands you love</p>
+            <p><b>BUILD. OWN. CREATE.</b></p>
+            {/* <p>Live a second digital reality where nothing is off limits. </p>
             <p> Use your Sinister Soul NFTs as playable characters</p>
-            <p>EXPLORE. BUILD. OWN. EVOLVE.</p>
+            <p>EXPLORE. BUILD. OWN. EVOLVE.</p> */}
             </div>
             <br />
 
@@ -52,7 +56,8 @@ export default function About(){
             <p>EXPLORE. BUILD. OWN. EVOLVE.</p>
             </div> */}
        
-        <button className="about-btn">CONNECT WALLET</button>
+        <button className="about-btn">LEARN MORE</button>
+        </div>
         </div>
         </animated.div>
     )

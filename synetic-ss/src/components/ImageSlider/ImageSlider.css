@@ -44,6 +44,7 @@ background: linear-gradient(to left, var(--clr-dark)  0%, transparent 100%);
     animation: scrolling 5s linear infinite;
     font-family: var(--ff-primary);
     color:white;
+
 }
 
 @media (min-width:800px){
@@ -78,8 +79,9 @@ background: linear-gradient(to left, var(--clr-dark)  0%, transparent 100%);
 } */
 
 .marquee_image-content img{
-    height: 50%;
+    height: 75%;
     width: 15rem;
     object-fit:cover;
     padding:1rem;
+    border-radius: 15%;
 }

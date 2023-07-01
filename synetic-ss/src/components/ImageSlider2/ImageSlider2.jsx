@@ -32,6 +32,10 @@ export default function ImageSlider2() {
   <img src= { NFTimage } alt="new-synetic_souls nft"></img>
   <img src= { NFTimage } alt="new-synetic_souls nft"></img>
   <img src= { NFTimage } alt="new-synetic_souls nft"></img>
+  <img src= { NFTimage } alt="new-synetic_souls nft"></img>
+  <img src= { NFTimage } alt="new-synetic_souls nft"></img>
+  <img src= { NFTimage } alt="new-synetic_souls nft"></img>
+  <img src= { NFTimage } alt="new-synetic_souls nft"></img>
 </div>
 </div>
 </div>

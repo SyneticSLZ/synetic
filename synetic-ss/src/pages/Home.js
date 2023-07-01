@@ -1,10 +1,12 @@
-import React, { useState, useContext, useRef } from "react";
+import React, { useState, useContext, useRef, useEffect } from "react";
+import { loadStripe } from "@stripe/stripe-js";
 import Navbar from "../components/Navbar/Navbar"
 import Team from "../components/Team/Team"
 // import Syneverse from "./components/Syneverse/Syneverse"
 import About from "../components/About/About"
 import NFTgame from "../components/NFTgame/NFTgame";
 import Hero from "../components/Hero/Hero";
+import Home123 from "../components/Hero/HeroHome";
 import Roadmap from "../components/Roadmap/Roadmap";
 import Contact from "../components/Contact/Contact";
 import Footer from "../components/Footer/Footer";
@@ -21,7 +23,10 @@ import { useOnClickOutside } from '../hooks/useOnClickOutside';
 import { ThemeProvider } from 'styled-components';
 import { GlobalStyles } from '../global';
 import { theme } from '../theme';
+import NavbarHero from "../components/Hero/NavbarHero"
 import { Parallax, ParallaxLayer } from 'react-spring';
+// import IFRAME from "../components/Hero/HeroHome";
+
 
 export default function Home() {
   let Parallax;
@@ -52,8 +57,7 @@ function reveal(){
   }
 }
 window.addEventListener("scroll", reveal);
-
-  return(
+  return( 
     <ThemeProvider theme={ theme }>
      <>
       <GlobalStyles />
@@ -74,11 +78,14 @@ window.addEventListener("scroll", reveal);
           {/* </FocusLock> */}
       </div>
 
-         <Navbar />
+        <NavbarHero />
          
-         <Hero />
-         <Footer /> 
+          {/* <Home123 />  */}
+         {/* <input placeholder="Message..."/>
+         <button onClick={redirectToCheckout}
+        disabled={isLoading}>Send Message</button> */}
          </>
     </ThemeProvider>
          );
 }
+
